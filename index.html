@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.title">Seatbelt Pro</title>
+
+  <meta name="description" content="Seatbelt repair and custom belt colors." data-i18n-attr="content:meta.description" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js" defer></script>
+</head>
+
+<body>
+  <div class="top-glow" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Seatbelt Pro">
+        <div class="brand-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M13 2L3 14h7l-1 8 12-14h-7l-1-6z" fill="white" opacity="0.95"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="name" data-i18n="brand.name">SEATBELT PRO</div>
+          <div class="tag" data-i18n="brand.tag">Premium Service</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#colors" data-i18n="nav.colors">Colors</a>
+        <a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="lang-dd" id="langDD">
+        <button class="lang-dd-btn" type="button" id="langBtn" aria-haspopup="listbox" aria-expanded="false">
+            <span class="lang-dd-flag" aria-hidden="true">🌐</span>
+            <span class="lang-dd-code" id="langCode">EN</span>
+            <span class="lang-dd-chev" aria-hidden="true">▾</span>
+        </button>
+
+        <div class="lang-dd-menu" id="langMenu" role="listbox" tabindex="-1" aria-label="Choose language">
+            <button class="lang-opt" type="button" data-lang="en">English <span class="code">EN</span></button>
+            <button class="lang-opt" type="button" data-lang="es">Español <span class="code">ES</span></button>
+            <button class="lang-opt" type="button" data-lang="it">Italiano <span class="code">IT</span></button>
+            <button class="lang-opt" type="button" data-lang="de">Deutsch <span class="code">DE</span></button>
+            <button class="lang-opt" type="button" data-lang="hu">Magyar <span class="code">HU</span></button>
+            <button class="lang-opt" type="button" data-lang="cs">Čeština <span class="code">CS</span></button>
+            <button class="lang-opt" type="button" data-lang="sk">Slovenčina <span class="code">SK</span></button>
+            <button class="lang-opt" type="button" data-lang="fr">Français <span class="code">FR</span></button>
+            <button class="lang-opt" type="button" data-lang="nl">Nederlands <span class="code">NL</span></button>
+            <button class="lang-opt" type="button" data-lang="pt">Português <span class="code">PT</span></button>
+            <button class="lang-opt" type="button" data-lang="ro">Română <span class="code">RO</span></button>
+            <button class="lang-opt" type="button" data-lang="pl">Polski <span class="code">PL</span></button>
+        </div>
+        </div>
+
+
+        <a class="cta" href="#contact" data-i18n="nav.quote">Get Quote</a>
+
+        <button class="burger" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-panel" id="mobilePanel" aria-label="Mobile menu">
+      <div class="wrap">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#colors" data-i18n="nav.colors">Colors</a>
+        <a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <a href="#contact" class="m-cta" data-i18n="nav.quote">Get Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <canvas id="stars"></canvas>
+      <div class="hero-vignette"></div>
+      <div class="hero-radials"></div>
+      <div class="hero-lines"></div>
+      <div class="cursor-glow" id="cursorGlow"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-pill">
+          <span class="pill-icon">⚡</span>
+          <span data-i18n="hero.pill">Premium Seatbelt Service</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="t1" data-i18n="hero.word1">Repair.</span><br>
+          <span class="t2" data-i18n="hero.word2">Restore.</span><br>
+          <span class="t3" data-i18n="hero.word3">Reimagine.</span>
+        </h1>
+
+        <p class="hero-sub" data-i18n="hero.subtitle">
+          Transform your vehicle's safety belts with precision repair and custom colors that make a statement.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn-primary" href="#contact">
+            <span data-i18n="hero.ctaPrimary">Start Your Project</span>
+            <span class="btn-arrow">→</span>
+          </a>
+          <a class="btn-secondary" href="#gallery" data-i18n="hero.ctaSecondary">View Gallery</a>
+        </div>
+
+        <div class="hero-badges">
+          <div class="badge"><span class="b-ico">★</span><span data-i18n="hero.badge1">10K+ Belts Restored</span></div>
+          <div class="badge"><span class="b-ico">🛡</span><span data-i18n="hero.badge2">Safety Certified</span></div>
+          <div class="badge"><span class="b-ico">⚡</span><span data-i18n="hero.badge3">24hr Rush Service</span></div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="ghost-card" aria-hidden="true"></div>
+
+        <div class="card card-top" data-float="1">
+          <div class="card-tag" data-i18n="hero.card1Tag">CORE</div>
+          <div class="card-ico">🔧</div>
+          <div class="card-title" data-i18n="hero.card1Title">Expert Repair</div>
+          <div class="card-sub" data-i18n="hero.card1Sub">Certified technicians restore damaged belts to factory specs</div>
+        </div>
+
+        <div class="card card-bottom" data-float="1.4">
+          <div class="card-tag premium" data-i18n="hero.card2Tag">PREMIUM</div>
+          <div class="card-ico">🎨</div>
+          <div class="card-title" data-i18n="hero.card2Title">Custom Colors</div>
+          <div class="card-sub" data-i18n="hero.card2Sub">50+ vibrant colors to match your style and interior</div>
+
+          <div class="swatches" aria-label="Color swatches">
+            <span style="--c:#FF4D4D"></span>
+            <span style="--c:#A855F7"></span>
+            <span style="--c:#22D3EE"></span>
+            <span style="--c:#EC4899"></span>
+            <span style="--c:#10B981"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span data-i18n="hero.scroll">SCROLL</span>
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- SECTIONS -->
+  <main class="main">
+    <section class="section" id="services">
+      <div class="section-head">
+        <h2 data-i18n="services.title">Services</h2>
+        <p data-i18n="services.subtitle">Safety-first repairs, premium materials, and clean finishes.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="tile">
+          <div class="tile-ico">🧵</div>
+          <h3 data-i18n="services.s1Title">Seatbelt Rewebbing</h3>
+          <p data-i18n="services.s1Sub">Replace worn webbing with OEM-quality material.</p>
+        </article>
+        <article class="tile">
+          <div class="tile-ico">⚙️</div>
+          <h3 data-i18n="services.s2Title">Retractor Repair</h3>
+          <p data-i18n="services.s2Sub">Fix slow retracting, locking issues, and jams.</p>
+        </article>
+        <article class="tile">
+          <div class="tile-ico">🛡️</div>
+          <h3 data-i18n="services.s3Title">Safety Inspection</h3>
+          <p data-i18n="services.s3Sub">Functional checks and proper locking behavior.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="section-head">
+        <h2 data-i18n="process.title">Process</h2>
+        <p data-i18n="process.subtitle">Clear steps. Professional results.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="n">1</div>
+          <div>
+            <h3 data-i18n="process.p1Title">Diagnosis</h3>
+            <p data-i18n="process.p1Sub">We inspect the mechanism and webbing condition.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="n">2</div>
+          <div>
+            <h3 data-i18n="process.p2Title">Repair / Reweb</h3>
+            <p data-i18n="process.p2Sub">Replace or restore parts using quality materials.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="n">3</div>
+          <div>
+            <h3 data-i18n="process.p3Title">Testing</h3>
+            <p data-i18n="process.p3Sub">Locking, retraction, and safety behavior verified.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="n">4</div>
+          <div>
+            <h3 data-i18n="process.p4Title">Delivery</h3>
+            <p data-i18n="process.p4Sub">Ready to install and enjoy — safer and cleaner.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+  <div class="section-head">
+    <h2 data-i18n="gallery.title">Gallery</h2>
+    <p data-i18n="gallery.subtitle">Seatbelt color samples — OEM & custom options.</p>
+  </div>
+
+  <div class="gallery samples">
+    <figure class="sample">
+      <img src="blue-navy.jpg" alt="Navy Blue seatbelt sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_blue_navy">Navy Blue</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="red-classic.jpg" alt="Red seatbelt sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_red_classic">Classic Red</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="green-lime.jpg" alt="Lime Green seatbelt sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_green_lime">Lime Green</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="black-red-edge.jpg" alt="Black seatbelt with red edge sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_black_red_edge">Black + Red Edge</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="black.jpg" alt="Black seatbelt sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_black">Black</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="white.jpg" alt="White seatbelt sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_white">White</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="black-m-stripe.jpg" alt="Black seatbelt with M stripe sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_black_m_stripe">Black + M Stripe</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="red-sport.jpg" alt="Sport Red seatbelt sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_red_sport">Sport Red</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="blue-royal.jpg" alt="Royal Blue seatbelt sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_blue_royal">Royal Blue</figcaption>
+    </figure>
+
+    <figure class="sample">
+      <img src="beige-oem.jpg" alt="OEM Beige seatbelt sample" loading="lazy">
+      <figcaption data-i18n="gallery.sample_beige_oem">OEM Beige</figcaption>
+    </figure>
+  </div>
+</section>
+
+    <section class="section" id="contact">
+      <div class="section-head">
+        <h2 data-i18n="contact.title">Get a Quote</h2>
+        <p data-i18n="contact.subtitle">Tell us what you need and we’ll reply fast.</p>
+      </div>
+
+      <div class="contact">
+        <form class="form" id="quoteForm">
+          <div class="row">
+            <label>
+              <span data-i18n="contact.name">Name</span>
+              <input type="text" name="name" data-i18n-attr="placeholder:contact.namePh" placeholder="Your name" required>
+            </label>
+
+            <label>
+              <span data-i18n="contact.phone">Phone</span>
+              <input type="tel" name="phone" data-i18n-attr="placeholder:contact.phonePh" placeholder="WhatsApp / Phone" required>
+            </label>
+          </div>
+
+          <label>
+            <span data-i18n="contact.car">Car / Model</span>
+            <input type="text" name="car" data-i18n-attr="placeholder:contact.carPh" placeholder="e.g., BMW F10 520d">
+          </label>
+
+          <label>
+            <span data-i18n="contact.message">Message</span>
+            <textarea name="message" rows="5" data-i18n-attr="placeholder:contact.messagePh" placeholder="Tell us what happened + desired color"></textarea>
+          </label>
+
+          <button class="btn-primary w100" type="submit">
+            <span data-i18n="contact.send">Send Request</span>
+            <span class="btn-arrow">→</span>
+          </button>
+
+          <p class="form-note" data-i18n="contact.note">Tip: include desired color and where the belt is installed (driver/passenger/rear).</p>
+        </form>
+
+        <div class="contact-card">
+          <h3 data-i18n="contact.cardTitle">Fast Contact</h3>
+          <p class="muted" data-i18n="contact.cardSub">Use WhatsApp or email for quick replies.</p>
+
+          <div class="contact-list">
+            <div class="item"><span class="k">WhatsApp</span><span class="v">+40 7xx xxx xxx</span></div>
+            <div class="item"><span class="k">Email</span><span class="v">contact@example.com</span></div>
+            <div class="item"><span class="k" data-i18n="contact.hours">Hours</span><span class="v" data-i18n="contact.hoursVal">Mon–Sat, 09:00–18:00</span></div>
+            <a class="btn-secondary w100" href="#top" data-i18n="contact.backTop">Back to top</a>
+        </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <div class="f-title" data-i18n="brand.name">SEATBELT PRO</div>
+          <div class="f-sub" data-i18n="footer.tagline">Safety repair • Custom colors • Premium finish</div>
+        </div>
+        <div class="f-links">
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#colors" data-i18n="nav.colors">Colors</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div class="f-copy" data-i18n="footer.copy">© 2026 Seatbelt Pro. All rights reserved.</div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
