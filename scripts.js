@@ -28,6 +28,21 @@
       card2Title: "Custom Colors",
       card2Sub: "50+ vibrant colors to match your style and interior"
     },
+  "machine": {
+    "title": "Industrial Bartack Stitching",
+    "subtitle": "Purpose-built stitching for seatbelts, using certified European webbing for safety and durability.",
+    "kicker": "Our Equipment",
+    "cardTitle": "Lockstitch Bartack Machine",
+    "cardText": "We use an industrial bartack system designed and programmed specifically for seatbelt stitching, ensuring consistent tension, clean patterns, and repeatable strength.",
+    "p1t": "Reinforced Bartack",
+    "p1s": "Strong, repeatable stitch patterns",
+    "p2t": "Certified Webbing",
+    "p2s": "European certified seatbelt material only",
+    "p3t": "Programmed Precision",
+    "p3s": "Controlled speed, tension, and stitch length",
+    "cta": "Contact us",
+    "caption": "Industrial bartack stitching for safety-critical seams."
+  },
     services: {
       title: "Services",
       subtitle: "Safety-first repairs, premium materials, and clean finishes.",
@@ -68,7 +83,7 @@
     },
     contact: {
       title: "Get a Quote",
-      subtitle: "Tell us what you need and we’ll reply fast.",
+      subtitle: "Tell us what you need. You can write in your language (French, Spanish & more) — we’ll reply fast.",
       name: "Name",
       namePh: "Your name",
       phone: "Phone",
@@ -124,6 +139,21 @@
       s3Title: "Inspección de seguridad",
       s3Sub: "Comprobación funcional y bloqueo correcto."
     },
+    "machine": {
+    "title": "Costura bartack industrial",
+    "subtitle": "Costura diseñada específicamente para cinturones de seguridad, utilizando cintas certificadas europeas para máxima seguridad.",
+    "kicker": "Nuestro equipo",
+    "cardTitle": "Máquina bartack de puntada fija",
+    "cardText": "Utilizamos un sistema bartack industrial diseñado y programado para la costura de cinturones de seguridad, garantizando tensión constante y resistencia fiable.",
+    "p1t": "Bartack reforzado",
+    "p1s": "Patrones de costura fuertes y repetibles",
+    "p2t": "Cinta certificada",
+    "p2s": "Material de cinturón certificado en Europa",
+    "p3t": "Precisión programada",
+    "p3s": "Velocidad, tensión y longitud de puntada controladas",
+    "cta": "Contáctanos",
+    "caption": "Costura bartack industrial para uniones críticas de seguridad."
+  },
     process: {
       title: "Proceso",
       subtitle: "Pasos claros. Resultados profesionales.",
@@ -154,7 +184,7 @@
     },
     contact: {
       title: "Pedir presupuesto",
-      subtitle: "Cuéntanos lo que necesitas y respondemos rápido.",
+      subtitle: "Cuéntenos qué necesita. Puede escribir en su idioma (francés, español y más) — responderemos rápido.",
       name: "Nombre",
       namePh: "Tu nombre",
       phone: "Teléfono",
@@ -210,6 +240,21 @@
       s3Title: "Controllo sicurezza",
       s3Sub: "Verifica funzionale e corretto blocco."
     },
+  "machine": {
+    "title": "Cucitura bartack industriale",
+    "subtitle": "Cucitura progettata specificamente per le cinture di sicurezza, con nastri certificati europei.",
+    "kicker": "La nostra attrezzatura",
+    "cardTitle": "Macchina bartack a punto fisso",
+    "cardText": "Utilizziamo un sistema bartack industriale progettato e programmato per la cucitura delle cinture di sicurezza, garantendo tensione costante e resistenza affidabile.",
+    "p1t": "Bartack rinforzato",
+    "p1s": "Schemi di cucitura forti e ripetibili",
+    "p2t": "Nastro certificato",
+    "p2s": "Materiali per cinture certificati europei",
+    "p3t": "Precisione programmata",
+    "p3s": "Velocità, tensione e lunghezza del punto controllate",
+    "cta": "Contattaci",
+    "caption": "Cucitura bartack industriale per giunzioni di sicurezza."
+  },
     process: {
       title: "Procedura",
       subtitle: "Passi chiari. Risultati professionali.",
@@ -240,7 +285,7 @@
     },
     contact: {
       title: "Richiedi preventivo",
-      subtitle: "Dicci cosa ti serve e rispondiamo rapidamente.",
+      subtitle: "Dicci di cosa hai bisogno. Puoi scrivere nella tua lingua (francese, spagnolo e altro) — risponderemo rapidamente.",
       name: "Nome",
       namePh: "Il tuo nome",
       phone: "Telefono",
@@ -296,6 +341,21 @@
       s3Title: "Sicherheitsprüfung",
       s3Sub: "Funktionstest und korrektes Verriegeln."
     },
+    "machine": {
+    "title": "Industrielle Bartack-Naht",
+    "subtitle": "Speziell entwickelte Nähtechnik für Sicherheitsgurte mit europäisch zertifiziertem Gurtband.",
+    "kicker": "Unsere Ausrüstung",
+    "cardTitle": "Bartack-Nähmaschine mit Verriegelungsstich",
+    "cardText": "Wir verwenden ein industrielles Bartack-System, das speziell für Sicherheitsgurt-Nähte programmiert ist und konstante Spannung sowie hohe Festigkeit gewährleistet.",
+    "p1t": "Verstärkte Bartack-Naht",
+    "p1s": "Starke und gleichmäßige Nahtmuster",
+    "p2t": "Zertifiziertes Gurtband",
+    "p2s": "Ausschließlich europäisch zertifizierte Materialien",
+    "p3t": "Programmierte Präzision",
+    "p3s": "Kontrollierte Geschwindigkeit, Spannung und Stichlänge",
+    "cta": "Kontakt aufnehmen",
+    "caption": "Industrielle Bartack-Nähte für sicherheitsrelevante Verbindungen."
+  },
     process: {
       title: "Ablauf",
       subtitle: "Klare Schritte. Professionelle Ergebnisse.",
@@ -326,7 +386,7 @@
     },
     contact: {
       title: "Angebot anfragen",
-      subtitle: "Sag uns, was du brauchst — wir antworten schnell.",
+      subtitle: "Sagen Sie uns, was Sie brauchen. Sie können in Ihrer Sprache schreiben (Französisch, Spanisch und mehr) — wir antworten schnell.",
       name: "Name",
       namePh: "Dein Name",
       phone: "Telefon",
@@ -382,6 +442,21 @@
       s3Title: "Biztonsági ellenőrzés",
       s3Sub: "Funkció és helyes reteszelés ellenőrzése."
     },
+    "machine": {
+    "title": "Ipari bartack varrás",
+    "subtitle": "Kifejezetten biztonsági övekhez tervezett varrás, európai tanúsítvánnyal rendelkező szalagokkal.",
+    "kicker": "Berendezéseink",
+    "cardTitle": "Bartack varrógép rögzítő öltéssel",
+    "cardText": "Ipari bartack rendszert használunk, amelyet biztonsági övek varrására terveztek és programoztak.",
+    "p1t": "Megerősített bartack",
+    "p1s": "Erős és ismételhető varratminták",
+    "p2t": "Tanúsított szalag",
+    "p2s": "Kizárólag európai tanúsítvánnyal rendelkező anyagok",
+    "p3t": "Programozott pontosság",
+    "p3s": "Szabályozott sebesség, feszítés és öltéshossz",
+    "cta": "Kapcsolat",
+    "caption": "Ipari bartack varrás biztonságkritikus illesztésekhez."
+  },
     process: {
       title: "Folyamat",
       subtitle: "Tiszta lépések. Profi eredmény.",
@@ -412,7 +487,7 @@
     },
     contact: {
       title: "Árajánlat",
-      subtitle: "Írd meg, mire van szükséged — gyorsan válaszolunk.",
+      subtitle: "Írd meg, mire van szükséged. Írhatsz a saját nyelveden (francia, spanyol és más nyelveken) — gyorsan válaszolunk.",
       name: "Név",
       namePh: "A neved",
       phone: "Telefon",
@@ -468,6 +543,21 @@
       s3Title: "Bezpečnostní kontrola",
       s3Sub: "Funkční test a správné zajištění."
     },
+     "machine": {
+    "title": "Průmyslové bartack šití",
+    "subtitle": "Šití speciálně navržené pro bezpečnostní pásy s evropsky certifikovanými materiály.",
+    "kicker": "Naše vybavení",
+    "cardTitle": "Bartack stroj s uzamykacím stehem",
+    "cardText": "Používáme průmyslový bartack systém určený pro šití bezpečnostních pásů s důrazem na pevnost a přesnost.",
+    "p1t": "Zesílený bartack",
+    "p1s": "Pevné a opakovatelné stehy",
+    "p2t": "Certifikovaný popruh",
+    "p2s": "Pouze evropsky certifikované materiály",
+    "p3t": "Programovaná přesnost",
+    "p3s": "Řízená rychlost, napětí a délka stehu",
+    "cta": "Kontaktujte nás",
+    "caption": "Průmyslové bartack šití pro bezpečnostně kritická místa."
+  },
     process: {
       title: "Postup",
       subtitle: "Jasné kroky. Profesionální výsledek.",
@@ -498,7 +588,7 @@
 },
     contact: {
       title: "Cenová nabídka",
-      subtitle: "Napište, co potřebujete — odpovíme rychle.",
+      subtitle: "Napište nám, co potřebujete. Můžete psát ve svém jazyce (francouzsky, španělsky a další) — odpovíme rychle.",
       name: "Jméno",
       namePh: "Vaše jméno",
       phone: "Telefon",
@@ -554,6 +644,21 @@
       s3Title: "Bezpečnostná kontrola",
       s3Sub: "Funkčný test a správne zaistenie."
     },
+    "machine": {
+    "title": "Priemyselné bartack šitie",
+    "subtitle": "Šitie navrhnuté špeciálne pre bezpečnostné pásy s európsky certifikovanými materiálmi.",
+    "kicker": "Naše vybavenie",
+    "cardTitle": "Bartack stroj s uzamykacím stehom",
+    "cardText": "Používame priemyselný bartack systém určený na šitie bezpečnostných pásov s dôrazom na pevnosť a presnosť.",
+    "p1t": "Zosilnený bartack",
+    "p1s": "Pevné a opakovateľné vzory stehov",
+    "p2t": "Certifikovaný pás",
+    "p2s": "Iba európsky certifikované materiály",
+    "p3t": "Programovaná presnosť",
+    "p3s": "Riadená rýchlosť, napätie a dĺžka stehu",
+    "cta": "Kontaktujte nás",
+    "caption": "Priemyselné bartack šitie pre bezpečnostne kritické spoje."
+  },
     process: {
       title: "Proces",
       subtitle: "Jasné kroky. Profesionálny výsledok.",
@@ -584,7 +689,7 @@
 },
     contact: {
       title: "Cenová ponuka",
-      subtitle: "Napíš, čo potrebuješ — odpovieme rýchlo.",
+      subtitle: "Napíšte nám, čo potrebujete. Môžete písať vo svojom jazyku (francúzsky, španielsky a ďalšie) — odpovieme rýchlo.",
       name: "Meno",
       namePh: "Tvoje meno",
       phone: "Telefón",
@@ -640,6 +745,21 @@
       s3Title: "Contrôle sécurité",
       s3Sub: "Test fonctionnel et verrouillage."
     },
+    "machine": {
+    "title": "Couture bartack industrielle",
+    "subtitle": "Couture spécialement conçue pour les ceintures de sécurité, avec des sangles certifiées européennes pour une sécurité maximale.",
+    "kicker": "Notre équipement",
+    "cardTitle": "Machine bartack à point noué",
+    "cardText": "Nous utilisons un système bartack industriel conçu et programmé pour la couture des ceintures de sécurité, garantissant une tension constante et une résistance fiable.",
+    "p1t": "Bartack renforcé",
+    "p1s": "Motifs de couture solides et constants",
+    "p2t": "Sangle certifiée",
+    "p2s": "Matériaux de ceinture certifiés européens",
+    "p3t": "Précision programmée",
+    "p3s": "Vitesse, tension et longueur de point contrôlées",
+    "cta": "Nous contacter",
+    "caption": "Couture bartack industrielle pour zones critiques de sécurité."
+  },
     process: {
       title: "Processus",
       subtitle: "Étapes claires. Résultat pro.",
@@ -670,7 +790,7 @@
 },
     contact: {
       title: "Demander un devis",
-      subtitle: "Dites-nous ce qu’il vous faut — réponse rapide.",
+      subtitle: "Dites-nous ce dont vous avez besoin. Vous pouvez écrire dans votre langue (français, espagnol et plus) — nous répondons rapidement.",
       name: "Nom",
       namePh: "Votre nom",
       phone: "Téléphone",
@@ -725,6 +845,21 @@
     card2Title: "Custom kleuren",
     card2Sub: "50+ levendige kleuren passend bij jouw stijl en interieur"
   },
+  "machine": {
+    "title": "Industriële bartack-stiksels",
+    "subtitle": "Speciaal ontworpen stikwerk voor veiligheidsgordels met Europees gecertificeerde banden.",
+    "kicker": "Onze apparatuur",
+    "cardTitle": "Bartack-machine met lockstitch",
+    "cardText": "Wij gebruiken een industrieel bartack-systeem dat is ontworpen en geprogrammeerd voor veiligheidsgordels.",
+    "p1t": "Versterkte bartack",
+    "p1s": "Sterke en herhaalbare steekpatronen",
+    "p2t": "Gecertificeerde band",
+    "p2s": "Uitsluitend Europees gecertificeerde materialen",
+    "p3t": "Geprogrammeerde precisie",
+    "p3s": "Gecontroleerde snelheid, spanning en steeklengte",
+    "cta": "Neem contact op",
+    "caption": "Industriële bartack-stiksels voor veiligheidskritische naden."
+  },
   services: {
     title: "Diensten",
     subtitle: "Veiligheid eerst, premium materialen en strakke afwerking.",
@@ -765,7 +900,7 @@
 },
   contact: {
     title: "Offerte aanvragen",
-    subtitle: "Vertel wat je nodig hebt en we reageren snel.",
+    subtitle: "Laat ons weten wat u nodig heeft. U kunt in uw eigen taal schrijven (Frans, Spaans en meer) — wij reageren snel.",
     name: "Naam",
     namePh: "Jouw naam",
     phone: "Telefoon",
@@ -831,6 +966,21 @@ pl: {
     s3Title: "Kontrola bezpieczeństwa",
     s3Sub: "Testy działania i poprawnego blokowania."
   },
+   "machine": {
+    "title": "Przemysłowe szycie bartack",
+    "subtitle": "Szycie zaprojektowane specjalnie do pasów bezpieczeństwa z certyfikowanymi europejskimi taśmami.",
+    "kicker": "Nasz sprzęt",
+    "cardTitle": "Maszyna bartack z ściegiem blokującym",
+    "cardText": "Używamy przemysłowego systemu bartack zaprogramowanego do szycia pasów bezpieczeństwa, zapewniającego stałe napięcie i wysoką wytrzymałość.",
+    "p1t": "Wzmocniony bartack",
+    "p1s": "Mocne i powtarzalne wzory szycia",
+    "p2t": "Certyfikowana taśma",
+    "p2s": "Wyłącznie europejskie certyfikowane materiały",
+    "p3t": "Programowana precyzja",
+    "p3s": "Kontrolowana prędkość, napięcie i długość ściegu",
+    "cta": "Skontaktuj się z nami",
+    "caption": "Przemysłowe szycie bartack dla krytycznych połączeń."
+  },
   process: {
     title: "Proces",
     subtitle: "Jasne kroki. Profesjonalny efekt.",
@@ -861,7 +1011,7 @@ pl: {
 },
   contact: {
     title: "Poproś o wycenę",
-    subtitle: "Napisz, czego potrzebujesz — odpowiemy szybko.",
+    subtitle: "Powiedz nam, czego potrzebujesz. Możesz pisać w swoim języku (francuski, hiszpański i inne) — odpowiemy szybko.",
     name: "Imię i nazwisko",
     namePh: "Twoje imię i nazwisko",
     phone: "Telefon",
@@ -938,6 +1088,21 @@ pt: {
     p4Title: "Entrega",
     p4Sub: "Pronto a instalar — mais seguro e mais limpo."
   },
+   "machine": {
+    "title": "Costura bartack industrial",
+    "subtitle": "Costura desenvolvida especificamente para cintos de segurança com fitas certificadas europeias.",
+    "kicker": "Nosso equipamento",
+    "cardTitle": "Máquina bartack de ponto fixo",
+    "cardText": "Utilizamos um sistema bartack industrial projetado e programado para a costura de cintos de segurança.",
+    "p1t": "Bartack reforçado",
+    "p1s": "Padrões de costura fortes e repetíveis",
+    "p2t": "Fita certificada",
+    "p2s": "Materiais de cinto certificados na Europa",
+    "p3t": "Precisão programada",
+    "p3s": "Velocidade, tensão e comprimento do ponto controlados",
+    "cta": "Fale conosco",
+    "caption": "Costura bartack industrial para áreas críticas de segurança."
+  },
   gallery: {
   title: "Galeria",
   subtitle: "Amostras de cores de cintos de segurança — opções OEM e personalizadas.",
@@ -956,7 +1121,7 @@ pt: {
 },
   contact: {
     title: "Pedir orçamento",
-    subtitle: "Diz-nos o que precisas e respondemos rapidamente.",
+    subtitle: "Diga-nos do que precisa. Pode escrever no seu idioma (francês, espanhol e outros) — responderemos rapidamente.",
     name: "Nome",
     namePh: "O teu nome",
     phone: "Telefone",
@@ -1011,6 +1176,21 @@ pt: {
         card2Title: "Culori personalizate",
         card2Sub: "50+ culori vibrante pentru stilul și interiorul tău"
       },
+      "machine": {
+    "title": "Cusătură bartack industrială",
+    "subtitle": "Cusătură dedicată centurilor de siguranță, realizată cu bandă certificată european.",
+    "kicker": "Echipamentul nostru",
+    "cardTitle": "Mașină bartack cu cusătură blocată",
+    "cardText": "Folosim un sistem bartack industrial, proiectat și programat special pentru coaserea centurilor de siguranță, asigurând rezistență constantă.",
+    "p1t": "Bartack ranforsat",
+    "p1s": "Modele de cusătură rezistente și repetabile",
+    "p2t": "Bandă certificată",
+    "p2s": "Materiale pentru centuri certificate european",
+    "p3t": "Precizie programată",
+    "p3s": "Viteză, tensiune și lungime de cusătură controlate",
+    "cta": "Contactează-ne",
+    "caption": "Cusături bartack industriale pentru zone critice de siguranță."
+  },
       services: {
         title: "Servicii",
         subtitle: "Siguranță pe primul loc, materiale premium și finisaje curate.",
@@ -1349,3 +1529,133 @@ pt: {
   initPalette();
   initForm();
 })();
+
+
+(() => {
+  function initSlider(root){
+    const track = root.querySelector('.slider-track');
+    const prev = root.querySelector('.slider-btn.prev');
+    const next = root.querySelector('.slider-btn.next');
+    const dotsWrap = root.querySelector('.slider-dots');
+    const slides = Array.from(track.children).filter(el => el.classList.contains('sample'));
+
+    if(!track || slides.length === 0) return;
+
+    // ----- helpers
+    const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+
+    function getSlideLeft(i){
+      // Left position of slide relative to track scroll area
+      return slides[i].offsetLeft - track.offsetLeft;
+    }
+
+    function scrollToIndex(i){
+      i = clamp(i, 0, slides.length - 1);
+      track.scrollTo({ left: getSlideLeft(i), behavior: 'smooth' });
+    }
+
+    function nearestIndex(){
+      const x = track.scrollLeft + 10; // small bias to start
+      let best = 0, bestDist = Infinity;
+      for(let i=0;i<slides.length;i++){
+        const left = getSlideLeft(i);
+        const d = Math.abs(left - x);
+        if(d < bestDist){ bestDist = d; best = i; }
+      }
+      return best;
+    }
+
+    function updateUI(){
+      const i = nearestIndex();
+
+      if(dotsWrap){
+        const dots = dotsWrap.querySelectorAll('.dot');
+        dots.forEach((d,k) => d.classList.toggle('is-active', k === i));
+      }
+
+      if(prev) prev.disabled = track.scrollLeft <= 2;
+      if(next) next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+    }
+
+    // ----- dots
+    if(dotsWrap){
+      dotsWrap.innerHTML = '';
+      slides.forEach((_, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'dot';
+        b.setAttribute('aria-label', `Go to slide ${i+1}`);
+        b.addEventListener('click', (e) => {
+          e.preventDefault();
+          scrollToIndex(i);
+        });
+        dotsWrap.appendChild(b);
+      });
+    }
+
+    // ----- arrows
+    if(prev){
+      prev.addEventListener('click', (e) => {
+        e.preventDefault();
+        scrollToIndex(nearestIndex() - 1);
+      });
+    }
+    if(next){
+      next.addEventListener('click', (e) => {
+        e.preventDefault();
+        scrollToIndex(nearestIndex() + 1);
+      });
+    }
+
+    // ----- touch/mouse drag (doesn't move the page)
+    let isDown = false;
+    let startX = 0;
+    let startScroll = 0;
+
+    track.addEventListener('pointerdown', (e) => {
+      // Only left click / touch
+      if(e.pointerType === 'mouse' && e.button !== 0) return;
+
+      isDown = true;
+      track.setPointerCapture(e.pointerId);
+
+      startX = e.clientX;
+      startScroll = track.scrollLeft;
+
+      // No page selection while dragging
+      track.classList.add('is-dragging');
+    });
+
+    track.addEventListener('pointermove', (e) => {
+      if(!isDown) return;
+
+      const dx = e.clientX - startX;
+
+      // If user is dragging horizontally, prevent accidental gestures
+      // (doesn't block vertical page scroll because touch-action is pan-y)
+      track.scrollLeft = startScroll - dx;
+    });
+
+    function endDrag(){
+      if(!isDown) return;
+      isDown = false;
+      track.classList.remove('is-dragging');
+
+      // Snap to nearest (smooth) without scrolling page
+      scrollToIndex(nearestIndex());
+    }
+
+    track.addEventListener('pointerup', endDrag);
+    track.addEventListener('pointercancel', endDrag);
+    track.addEventListener('lostpointercapture', endDrag);
+
+    // ----- sync UI
+    track.addEventListener('scroll', () => requestAnimationFrame(updateUI), { passive: true });
+    window.addEventListener('resize', updateUI);
+
+    updateUI();
+  }
+
+  document.querySelectorAll('[data-slider="samples"]').forEach(initSlider);
+})();
+

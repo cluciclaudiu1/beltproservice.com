@@ -21,21 +21,13 @@
   <!-- HEADER -->
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="#top" aria-label="Seatbelt Pro">
-        <div class="brand-badge" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none">
-            <path d="M13 2L3 14h7l-1 8 12-14h-7l-1-6z" fill="white" opacity="0.95"/>
-          </svg>
-        </div>
-        <div class="brand-text">
-          <div class="name" data-i18n="brand.name">SEATBELT PRO</div>
-          <div class="tag" data-i18n="brand.tag">Premium Service</div>
-        </div>
+      <a href="#" class="brand">
+        <img src="logo-header.png" alt="Seatbelt Pro logo">
       </a>
+
 
       <nav class="nav" aria-label="Primary">
         <a href="#services" data-i18n="nav.services">Services</a>
-        <a href="#colors" data-i18n="nav.colors">Colors</a>
         <a href="#process" data-i18n="nav.process">Process</a>
         <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
@@ -76,7 +68,6 @@
     <div class="mobile-panel" id="mobilePanel" aria-label="Mobile menu">
       <div class="wrap">
         <a href="#services" data-i18n="nav.services">Services</a>
-        <a href="#colors" data-i18n="nav.colors">Colors</a>
         <a href="#process" data-i18n="nav.process">Process</a>
         <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
@@ -85,51 +76,51 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <section class="hero" id="top">
-    <div class="hero-bg" aria-hidden="true">
-      <canvas id="stars"></canvas>
-      <div class="hero-vignette"></div>
-      <div class="hero-radials"></div>
-      <div class="hero-lines"></div>
-      <div class="cursor-glow" id="cursorGlow"></div>
-    </div>
+  <div class="hero-bg" aria-hidden="true">
+    <canvas id="stars"></canvas>
+    <div class="hero-vignette"></div>
+    <div class="hero-radials"></div>
+    <div class="hero-lines"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+  </div>
 
-    <div class="hero-inner">
-      <div class="hero-left">
-        <div class="hero-pill">
-          <span class="pill-icon">⚡</span>
-          <span data-i18n="hero.pill">Premium Seatbelt Service</span>
-        </div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      
+      <h1 class="hero-title">
+        <span class="t1" data-i18n="hero.word1">Repair.</span><br>
+        <span class="t2" data-i18n="hero.word2">Restore.</span><br>
+        <span class="t3" data-i18n="hero.word3">Reimagine.</span>
+      </h1>
 
-        <h1 class="hero-title">
-          <span class="t1" data-i18n="hero.word1">Repair.</span><br>
-          <span class="t2" data-i18n="hero.word2">Restore.</span><br>
-          <span class="t3" data-i18n="hero.word3">Reimagine.</span>
-        </h1>
+      <p class="hero-sub" data-i18n="hero.subtitle">
+        Transform your vehicle's safety belts with precision repair and custom colors that make a statement.
+      </p>
 
-        <p class="hero-sub" data-i18n="hero.subtitle">
-          Transform your vehicle's safety belts with precision repair and custom colors that make a statement.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn-primary" href="#contact">
-            <span data-i18n="hero.ctaPrimary">Start Your Project</span>
-            <span class="btn-arrow">→</span>
-          </a>
-          <a class="btn-secondary" href="#gallery" data-i18n="hero.ctaSecondary">View Gallery</a>
-        </div>
-
-        <div class="hero-badges">
-          <div class="badge"><span class="b-ico">★</span><span data-i18n="hero.badge1">10K+ Belts Restored</span></div>
-          <div class="badge"><span class="b-ico">🛡</span><span data-i18n="hero.badge2">Safety Certified</span></div>
-          <div class="badge"><span class="b-ico">⚡</span><span data-i18n="hero.badge3">24hr Rush Service</span></div>
-        </div>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#contact">
+          <span data-i18n="hero.ctaPrimary">Start Your Project</span>
+          <span class="btn-arrow">→</span>
+        </a>
+        <a class="btn-secondary" href="#gallery" data-i18n="hero.ctaSecondary">View Gallery</a>
       </div>
 
-      <div class="hero-right">
-        <div class="ghost-card" aria-hidden="true"></div>
+      <div class="hero-badges">
+        <div class="badge"><span class="b-ico">★</span><span data-i18n="hero.badge1">10K+ Belts Restored</span></div>
+        <div class="badge"><span class="b-ico">🛡</span><span data-i18n="hero.badge2">Safety Certified</span></div>
+        <div class="badge"><span class="b-ico">⚡</span><span data-i18n="hero.badge3">24hr Rush Service</span></div>
+      </div>
+    </div>
 
+    <div class="hero-right">
+      <div class="hero-mark" aria-hidden="true"></div>
+
+      <div class="hero-logoWrap">
+        <img class="hero-logo" src="logo-hero.png" alt="Seatbelt Pro">
+      </div>
+
+      <div class="hero-cards">
         <div class="card card-top" data-float="1">
           <div class="card-tag" data-i18n="hero.card1Tag">CORE</div>
           <div class="card-ico">🔧</div>
@@ -153,12 +144,14 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="hero-scroll" aria-hidden="true">
-      <span data-i18n="hero.scroll">SCROLL</span>
-      <div class="scroll-dot"></div>
-    </div>
-  </section>
+  <div class="hero-scroll" aria-hidden="true">
+    <span data-i18n="hero.scroll">SCROLL</span>
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
 
   <!-- SECTIONS -->
   <main class="main">
@@ -225,69 +218,135 @@
       </div>
     </section>
 
+<section class="section machine" id="equipment">
+  <div class="section-head">
+    <h2 data-i18n="machine.title">Industrial Bartack Stitching</h2>
+    <p data-i18n="machine.subtitle">
+      Purpose-built stitching for seatbelts, using certified European webbing for safety and durability.
+    </p>
+  </div>
+
+  <div class="machine-grid">
+    <div class="machine-card">
+      <div class="machine-kicker" data-i18n="machine.kicker">Our Equipment</div>
+      <h3 data-i18n="machine.cardTitle">Lockstitch Bartack Machine</h3>
+      <p data-i18n="machine.cardText">
+        We use an industrial bartack system designed and programmed for seatbelt stitching—consistent tension,
+        clean patterns, and repeatable strength where it matters most.
+      </p>
+
+      <div class="machine-points">
+        <div class="m-point">
+          <span class="m-ico">🧵</span>
+          <div>
+            <div class="m-ttl" data-i18n="machine.p1t">Reinforced Bartack</div>
+            <div class="m-sub" data-i18n="machine.p1s">Strong, repeatable stitch patterns</div>
+          </div>
+        </div>
+
+        <div class="m-point">
+          <span class="m-ico">🛡</span>
+          <div>
+            <div class="m-ttl" data-i18n="machine.p2t">Certified Webbing</div>
+            <div class="m-sub" data-i18n="machine.p2s">European certified seatbelt material only</div>
+          </div>
+        </div>
+
+        <div class="m-point">
+          <span class="m-ico">⚙️</span>
+          <div>
+            <div class="m-ttl" data-i18n="machine.p3t">Programmed Precision</div>
+            <div class="m-sub" data-i18n="machine.p3s">Controlled speed, tension and stitch length</div>
+          </div>
+        </div>
+      </div>
+
+      <a class="btn-primary machine-cta" href="#contact">
+        <span data-i18n="machine.cta">Contact us</span>
+        <span class="btn-arrow">→</span>
+      </a>
+    </div>
+
+    <figure class="machine-media">
+      <img src="bartack-machine.jpg" alt="Bartack stitching machine for seatbelts" loading="lazy">
+      <figcaption data-i18n="machine.caption">Industrial bartack stitching for safety-critical seams.</figcaption>
+    </figure>
+  </div>
+</section>
+
     <section class="section" id="gallery">
   <div class="section-head">
     <h2 data-i18n="gallery.title">Gallery</h2>
     <p data-i18n="gallery.subtitle">Seatbelt color samples — OEM & custom options.</p>
   </div>
 
-  <div class="gallery samples">
+<div class="samples-slider" data-slider="samples">
+  <button class="slider-btn prev" type="button" aria-label="Previous">‹</button>
+
+  <div class="gallery samples slider-track" tabindex="0" aria-label="Seatbelt samples">
+    <!-- your existing figures stay exactly the same -->
     <figure class="sample">
-      <img src="blue-navy.jpg" alt="Navy Blue seatbelt sample" loading="lazy">
+      <img src="blue-navy.jpg" alt="Navy Blue seatbelt sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_blue_navy">Navy Blue</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="red-classic.jpg" alt="Red seatbelt sample" loading="lazy">
+      <img src="red-classic.jpg" alt="Red seatbelt sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_red_classic">Classic Red</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="green-lime.jpg" alt="Lime Green seatbelt sample" loading="lazy">
+      <img src="green-lime.jpg" alt="Lime Green seatbelt sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_green_lime">Lime Green</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="black-red-edge.jpg" alt="Black seatbelt with red edge sample" loading="lazy">
+      <img src="black-red-edge.jpg" alt="Black seatbelt with red edge sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_black_red_edge">Black + Red Edge</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="black.jpg" alt="Black seatbelt sample" loading="lazy">
+      <img src="black.jpg" alt="Black seatbelt sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_black">Black</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="white.jpg" alt="White seatbelt sample" loading="lazy">
+      <img src="white.jpg" alt="White seatbelt sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_white">White</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="black-m-stripe.jpg" alt="Black seatbelt with M stripe sample" loading="lazy">
+      <img src="black-m-stripe.jpg" alt="Black seatbelt with M stripe sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_black_m_stripe">Black + M Stripe</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="red-sport.jpg" alt="Sport Red seatbelt sample" loading="lazy">
+      <img src="red-sport.jpg" alt="Sport Red seatbelt sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_red_sport">Sport Red</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="blue-royal.jpg" alt="Royal Blue seatbelt sample" loading="lazy">
+      <img src="blue-royal.jpg" alt="Royal Blue seatbelt sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_blue_royal">Royal Blue</figcaption>
     </figure>
 
     <figure class="sample">
-      <img src="beige-oem.jpg" alt="OEM Beige seatbelt sample" loading="lazy">
+      <img src="beige-oem.jpg" alt="OEM Beige seatbelt sample" loading="lazy" draggable="false">
       <figcaption data-i18n="gallery.sample_beige_oem">OEM Beige</figcaption>
     </figure>
   </div>
+
+  <button class="slider-btn next" type="button" aria-label="Next">›</button>
+
+  <div class="slider-dots" aria-label="Slider pagination"></div>
+</div>
+
 </section>
 
     <section class="section" id="contact">
       <div class="section-head">
         <h2 data-i18n="contact.title">Get a Quote</h2>
-        <p data-i18n="contact.subtitle">Tell us what you need and we’ll reply fast.</p>
+        <p data-i18n="contact.subtitle">Tell us what you need. You can write in your language (French, Spanish & more) — we’ll reply fast.</p>
       </div>
 
       <div class="contact">
@@ -371,6 +430,14 @@
 
   </div>
 </footer>
+  <a href="https://wa.me/407XXXXXXXX"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true">
+    <path d="M16.04 2.01c-7.74 0-14.03 6.29-14.03 14.03 0 2.48.65 4.9 1.88 7.04L2 30l7.14-1.84a14.01 14.01 0 006.9 1.8h.01c7.74 0 14.03-6.29 14.03-14.03 0-3.75-1.46-7.27-4.11-9.92a13.93 13.93 0 00-9.93-4zm0 25.47c-2.11 0-4.18-.57-5.99-1.64l-.43-.25-4.24 1.09 1.13-4.13-.28-.42a11.43 11.43 0 01-1.77-6.14c0-6.31 5.13-11.44 11.45-11.44 3.05 0 5.92 1.19 8.08 3.36a11.37 11.37 0 013.35 8.08c0 6.31-5.13 11.44-11.44 11.44zm6.28-8.58c-.34-.17-2.02-.99-2.33-1.1-.31-.11-.54-.17-.76.17-.23.34-.88 1.1-1.08 1.32-.2.23-.4.26-.74.09-.34-.17-1.44-.53-2.74-1.68-1.01-.9-1.69-2.02-1.89-2.36-.2-.34-.02-.52.15-.69.15-.15.34-.4.51-.6.17-.2.23-.34.34-.57.11-.23.06-.43-.03-.6-.09-.17-.76-1.84-1.04-2.53-.27-.65-.55-.56-.76-.57l-.65-.01c-.23 0-.6.09-.91.43-.31.34-1.2 1.17-1.2 2.85s1.23 3.31 1.4 3.54c.17.23 2.42 3.69 5.86 5.17.82.35 1.45.56 1.95.72.82.26 1.56.22 2.15.13.66-.1 2.02-.82 2.31-1.61.29-.79.29-1.46.2-1.61-.08-.15-.31-.23-.65-.4z"/>
+  </svg>
+</a>
 
   </main>
 </body>
